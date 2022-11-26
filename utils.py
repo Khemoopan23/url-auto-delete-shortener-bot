@@ -378,4 +378,4 @@ def humanbytes(size):
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
 async def get_shortlink(link):
-    return f"https://omegalinks.in/st?api={SHORTENER_API}&url={link}"
+    return f"https://du-link.in/st?api={SHORTENER_API}&url={link}"
