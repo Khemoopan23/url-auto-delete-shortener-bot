@@ -1,6 +1,8 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
+from info import SHORTENER_API
+
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
